@@ -1,0 +1,38 @@
+{
+  "name": "opentmi-cli",
+  "version": "0.1.0",
+  "description": "Opentmi cli interface for admins",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentmi/opentmi-cli.git"
+  },
+  "keywords": [
+    "opentmi",
+    "cli"
+  ],
+  "author": "Jussi Vatjus-Anttila <jussiva@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opentmi/opentmi-cli/issues"
+  },
+  "homepage": "https://github.com/opentmi/opentmi-cli#readme",
+  "dependencies": {
+    "find-up": "^2.1.0",
+    "lowdb": "^1.0.0",
+    "opentmi-jsclient": "git+https://github.com/opentmi/opentmi-jsclient.git#v0.3.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0"
+  }
+}
