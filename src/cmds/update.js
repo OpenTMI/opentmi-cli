@@ -1,5 +1,4 @@
 const {Transport, Admin} = require('opentmi-jsclient');
-const {table} = require('table');
 
 const showVersion = (argv) => {
   const transport = new Transport(argv.host);

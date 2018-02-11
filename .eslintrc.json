@@ -17,7 +17,7 @@
         "indent": [ "warn", 2,  { "SwitchCase": 1} ],
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
         "no-underscore-dangle": ["off"],
-        "no-console": "error",
+        "no-console": "off",
         "valid-jsdoc": "warn",
         "object-curly-spacing": ["error", "never"],
         "array-bracket-spacing": ["error", "never"],

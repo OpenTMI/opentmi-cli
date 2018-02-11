@@ -14,12 +14,10 @@ yargs.usage('Usage: $0 <command> [options]')
   .command('logout', 'Logout user', () => {}, logoutUser)
   .command('show', 'Show something from server', argv =>
     argv
-      .command('version', 'Show server version', () => {}, showVersion)
-  )
+      .command('version', 'Show server version', () => {}, showVersion))
   .command('update', 'Update something from server', argv =>
     argv
-      .command('version <revision>', 'Update server version', () => {}, updateVersion)
-  )
+      .command('version <revision>', 'Update server version', () => {}, updateVersion))
   .config(config.getState())
   .demandCommand()
   .alias('h', 'help')
