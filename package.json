@@ -26,7 +26,9 @@
     "find-up": "^2.1.0",
     "lowdb": "^1.0.0",
     "opentmi-jsclient": "git+https://github.com/opentmi/opentmi-jsclient.git#v0.3.0",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "lodash": "^4.17.5",
+    "table": "^4.0.2"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
