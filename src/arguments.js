@@ -5,7 +5,7 @@ const yargs = require('yargs');
 
 // app modules
 const {authenticateUser, logoutUser} = require('./cmds/login');
-const {showVersion, updateVersion} = require('./cmds/update');
+const {showVersion, updateVersion, reloadWorkers} = require('./cmds/update');
 const config = require('./config');
 
 
@@ -18,6 +18,9 @@ yargs.usage('Usage: $0 <command> [options]')
   .command('update', 'Update something from server', argv =>
     argv
       .command('version <revision>', 'Update server version', () => {}, updateVersion))
+  .command('reload', 'Reload something from server', argv =>
+    argv
+      .command('workers', 'Reload workers', () => {}, reloadWorkers))
   .config(config.getState())
   .demandCommand()
   .alias('h', 'help')
