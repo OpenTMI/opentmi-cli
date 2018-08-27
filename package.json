@@ -28,7 +28,7 @@
   "dependencies": {
     "find-up": "^2.1.0",
     "lowdb": "^1.0.0",
-    "opentmi-jsclient": "git+https://github.com/opentmi/opentmi-jsclient.git#v0.3.0",
+    "opentmi-jsclient": "git+https://github.com/opentmi/opentmi-jsclient.git#v0.4.0",
     "yargs": "^11.0.0"
   },
   "devDependencies": {
