@@ -2,11 +2,14 @@
   "name": "opentmi-cli",
   "version": "0.1.0",
   "description": "Opentmi cli interface for admins",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "npm test",
     "lint": "eslint src",
     "lint-fix": "eslint src --fix"
+  },
+  "bin": {
+    "opentmi-cli": "./index.js"
   },
   "repository": {
     "type": "git",
