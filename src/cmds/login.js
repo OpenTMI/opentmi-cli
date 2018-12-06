@@ -11,7 +11,8 @@ const authenticateUser = ({username, password, host}) => {
         .set('host', host)
         .set('token', token)
         .write();
-      console.log('Login success');
+      console.log('Login success. Token');
+      console.log(transport.token);
     })
     .catch((error) => {
       console.error(`Login failed: ${error.message}`);
